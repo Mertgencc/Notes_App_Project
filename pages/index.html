@@ -1,11 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
     <title>Notes App</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <h2>MY NOTES</h2>
+      <div class="genel mt-5">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="textInput"
+          class="giris form-control"
+          placeholder="Notunuzu Ekleyiniz ..."
+          aria-label="Notunuzu Ekleyiniz ..."
+          aria-describedby="button-addon2"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            onclick="addNote()"
+            id="button-addon2"
+          >
+            NOT EKLE
+          </button>
+        </div>
+      </div>
+
+      <div class="not card mt-5">
+        <div class="card-header">NOTLARIM</div>
+        <div class="card-body">
+          <ul id="not"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script dosyası yolu doğru olmalı -->
+    <script src="/js/main2.js"></script>
+  </body>
 </html>
