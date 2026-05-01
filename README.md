@@ -3,6 +3,7 @@
 A simple Notes application built with HTML, CSS, and JavaScript. This project allows users to create and delete notes dynamically in the browser using basic DOM manipulation.
 
 <img width="1366" height="645" alt="notes" src="https://github.com/user-attachments/assets/30871f0c-ce99-48e1-a5de-cb05bef73e10" />
+
 ---
 
 #### 🚀 Features
