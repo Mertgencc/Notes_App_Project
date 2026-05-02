@@ -1,6 +1,6 @@
 let notes = [];
 
-window.onload() = function(){
+window.onload = function(){
     const data = localStorage.getItem("notes");
 
     if (data){
