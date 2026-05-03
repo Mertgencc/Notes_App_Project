@@ -27,7 +27,7 @@ function addNote() {
 
     btn.onclick = function(){
         notes = notes.filter((n) => n !== value);
-        localStorage.getItem("notes", JSON.stringify(notes));
+        localStorage.setItem("notes", JSON.stringify(notes));
         renderNotes();
     }
 
